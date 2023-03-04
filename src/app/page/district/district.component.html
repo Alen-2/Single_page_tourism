@@ -1,0 +1,15 @@
+<div class="container">
+  <p style ="background-image: url('https://t3.ftcdn.net/jpg/02/60/93/78/360_F_260937851_mYeEoutayhVXi31C5aATuzmIGpOgfULH.jpg');"></p>
+  <div class="row">
+    <div class="card" style="width: 15rem; margin: 20px;" *ngFor="let item of collection">
+      <img  src="{{item.image}}" class="card-img-top pt-3"  alt="...">
+        <div class="card-body">
+          <h5 class="card-title">{{item.name}}</h5>
+          <p class="card-text">{{item.details}}</p>
+          <div class="text-center">
+            <a (click)="goto(item.name)" class="btn btn-primary">More Info</a>
+          </div>
+        </div>
+      </div>
+  </div>
+</div>

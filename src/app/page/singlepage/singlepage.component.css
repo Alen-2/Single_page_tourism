@@ -1,0 +1,10 @@
+.border
+{
+  display: flex;
+  background-color: rgb(130, 161, 72);
+  width: 500px;
+  padding: 50px;
+  margin:20px;
+  color: rgb(255, 255, 255);
+}
+

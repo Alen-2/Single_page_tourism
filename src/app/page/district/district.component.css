@@ -1,0 +1,29 @@
+.card{
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  background-color: black;
+  color: aliceblue;
+  border-radius: 40px;
+}
+
+.btn btn-primary{
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-title{
+  display: flex;
+  justify-content: center;
+}
+
+.card-img-top{
+  height: 200px;
+  border-radius: 150px;
+}
+
+
+.card-text{
+  text-align: center;
+}

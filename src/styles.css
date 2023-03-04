@@ -1,1 +1,7 @@
-/* You can add global styles to this file, and also import other style files */
+body{
+  background-image: url("https://thumbs.dreamstime.com/b/kerala-boat-house-india-tourism-back-waters-169948196.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  backdrop-filter: blur(3px);
+}
